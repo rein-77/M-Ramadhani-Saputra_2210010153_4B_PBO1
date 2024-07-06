@@ -59,7 +59,7 @@ public StokToko(String namaBarang, int stokBarang) {
     }
 ```
 
-5. **Mutator** atau setter digunakan untuk mengubah nilai dari suatu atribut. Pada kode ini, `setNama` dan `setNpm` adalah contoh method mutator.
+5. **Mutator** atau setter digunakan untuk mengubah nilai dari suatu atribut. Pada kode ini, `setNamaBarang` dan `setStokBarang` adalah contoh method mutator.
 
 ```bash
 protected void setNamaBarang(String namaBarang) {
