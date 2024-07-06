@@ -12,7 +12,7 @@ Aplikasi ini mengimplementasikan beberapa konsep penting dalam pemrograman beror
 
 Berikut adalah bagian kode yang relevan dengan konsep OOP yang dijelaskan:
 
-1. **Class** adalah template atau blueprint dari object. Pada kode ini, `Mahasiswa`, `MahasiswaDetail`, dan `MahasiswaBeraksi` adalah contoh dari class.
+1. **Class** adalah template atau blueprint dari object. Pada kode ini, `Toko`, `StokToko`, dan `TokoMain` adalah contoh dari class.
 
 ```bash
 public class Toko {
@@ -83,7 +83,7 @@ protected int getStokBarang() {
 }
 ```
 
-7. **Encapsulation** adalah konsep menyembunyikan data dengan membuat atribut menjadi private dan hanya bisa diakses melalui method. Pada kode ini, atribut `nama` dan `npm` dienkapsulasi dan hanya bisa diakses melalui method getter dan setter.
+7. **Encapsulation** adalah konsep menyembunyikan data dengan membuat atribut menjadi private dan hanya bisa diakses melalui method. Pada kode ini, atribut `namaBarang` dan `stokBarang` dienkapsulasi dan hanya bisa diakses melalui method getter dan setter.
 
 ```bash
 private String namaBarang;
@@ -143,7 +143,7 @@ System.out.println("\n Stok yang telah dimasukan : ");
 System.out.println(stok1.getInfo());
 ```
 
-13. **Array** adalah struktur data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Pada kode ini, `StokToko[] stokArray = new StokToko[1];` adalah contoh penggunaan array.
+13. **Array** adalah struktur data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Pada kode ini, `StokToko[] stokArray = new StokToko[3];` adalah contoh penggunaan array.
 
 ```bash
 StokToko[] stokArray = new StokToko[3];
@@ -181,5 +181,5 @@ try {
 
 ## Pembuat
 
-Nama: Muhammad Edya Rosadi
-NPM: 2110010001
+Nama: M. Ramadhani Saputra
+NPM: 210010153
